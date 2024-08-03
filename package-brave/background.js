@@ -1,7 +1,7 @@
 chrome.webRequest.onBeforeSendHeaders.addListener(data => {
 	for (let header of data.requestHeaders) {
 		if (header.name.toLowerCase() === 'user-agent') {
-			header.value = navigator.userAgent.split('Gecko')[0] + 'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0';
+			header.value = navigator.userAgent.split('AppleWebKit')[0] + 'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0';
 		}
 	}
 	return { requestHeaders: data.requestHeaders };
