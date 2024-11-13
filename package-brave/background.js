@@ -11,10 +11,10 @@ chrome.webRequest.onBeforeSendHeaders.addListener(data => {
     return { requestHeaders: headers };
 }, { urls: ['https://*.bing.com/*', 'https://copilot.microsoft.com/*'] }, ['blocking', 'requestHeaders']);
 chrome.browserAction.onClicked.addListener(() => {
-    chrome.tabs.create({ url: 'https://chat.bing.com' });
+    chrome.tabs.create({ url: 'https://copilot.microsoft.com' });
 });
 chrome.runtime.onInstalled.addListener(({ reason }) => {
     if (reason === 'install') {
-        chrome.tabs.create({ url: 'https://chat.bing.com' });
+        chrome.tabs.create({ url: 'https://copilot.microsoft.com' });
     }
 });

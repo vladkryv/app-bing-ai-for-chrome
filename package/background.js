@@ -34,10 +34,10 @@ chrome.declarativeNetRequest.updateDynamicRules({
     ],
 });
 chrome.action.onClicked.addListener(() => {
-    chrome.tabs.create({ url: 'https://chat.bing.com' });
+    chrome.tabs.create({ url: 'https://copilot.microsoft.com' });
 });
 chrome.runtime.onInstalled.addListener(({ reason }) => {
     if (reason === 'install') {
-        chrome.tabs.create({ url: 'https://chat.bing.com' });
+        chrome.tabs.create({ url: 'https://copilot.microsoft.com' });
     }
 });
