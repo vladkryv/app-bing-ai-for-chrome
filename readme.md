@@ -2,7 +2,7 @@
 
 This add-on removes the limits of Microsoft Copilot / Bing AI (ChatGPT v4) for Google Chrome and other browsers by setting appropriate features for the browser.
 
-[Download ZIP package for Chrome](https://github.com/vladkryv/app-bing-ai-for-chrome/releases/download/1.1.2/extension-chrome.zip) | [Download ZIP package for Brave](https://github.com/vladkryv/app-bing-ai-for-chrome/releases/download/1.1.2/extension-brave.zip)
+[Download ZIP package for Chrome](https://github.com/vladkryv/app-bing-ai-for-chrome/releases/download/1.1.3/extension-chrome.zip) | [Download ZIP package for Brave](https://github.com/vladkryv/app-bing-ai-for-chrome/releases/download/1.1.3/extension-brave.zip)
 
 ## With the add-on in Brave
 
